@@ -1,0 +1,28 @@
+.bg-imgg{
+    background:linear-gradient(#00000030 , #00000030), url("/public/images/image-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+   
+}
+.bg-imgg h2{
+    padding-top: 150px;
+    color: #fff;
+}
+.bg-imgg label{
+    color: #fff;
+}
+.bg-imgg form{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.bg-imgg input{
+    width: 100%;
+    padding: 10px;
+}
+.bg-imgg select{
+    width: 100%;
+    padding: 10px;
+}

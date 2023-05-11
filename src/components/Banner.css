@@ -1,0 +1,50 @@
+  
+.ist-image{
+        background: linear-gradient(#00000030 , #00000030), url(/public/images/image-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    transform: scale(1);
+    transition: all 6000ms linear;
+    position: relative;
+   
+}
+.second-image{
+        background: linear-gradient(#00000030 , #00000030), url(/public/images/image-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    
+}
+.third-image{
+        background: linear-gradient(#00000030 , #00000030), url(/public/images/image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+}
+.carousel-control-next,
+ .carousel-control-prev{
+    top: 50%;
+    bottom: 50%;
+ }
+ .imageInner{
+    
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+   /* transform: translate(-50%, -50%); */
+   width: 700px;
+   text-align: center;
+   left: 28%;
+ }
+ .imageInner h1{
+    font-size: 80px;
+    color: #fff;
+ }
+ .imageInner p{
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+ }

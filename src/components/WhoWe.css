@@ -1,0 +1,32 @@
+.weBg{
+    background-color: black;
+    color: #fff;
+    padding: 100px 0;
+}
+.weBgInner{
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.weBgInner p{
+    font-size: 17px;
+    color: rgb(85, 85, 85);
+}
+.weBgInner h2{
+    font-size: 45px;
+}
+.weBgInner button{
+    margin-top: 40px;    background: transparent;
+    padding: 20px;
+    border: 1px solid rgb(85, 85, 85);
+    color: #fff;
+    transition: 1s ease;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.weBgInner button:hover{
+    background-color:rgb(85, 85, 85) ;
+    color: black;
+    font-weight: 500;
+}

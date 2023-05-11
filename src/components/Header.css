@@ -1,0 +1,14 @@
+.myNav{
+    position: absolute;
+    z-index: 99999;
+    top: 10px;
+    background: transparent;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+    text-decoration: solid;
+}
+button{
+    border: 1px solid ;
+}

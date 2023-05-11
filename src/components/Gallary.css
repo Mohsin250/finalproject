@@ -1,0 +1,32 @@
+.galleryBox{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.gaboxInner{
+    width: 16.666%;
+    overflow: hidden;
+    position: relative;
+    
+}
+.gaboxInner img{
+    height: 300px;
+    transition: opacity 1s ease; 
+}
+.gaOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.gaboxInner:hover img {
+    transform: scale(1.1);
+
+  }
+.gaboxInner:hover .overlay {
+    opacity: 0;
+}
